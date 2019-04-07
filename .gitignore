@@ -31,3 +31,11 @@ cfg/__init__.py
 *.bag
 glog_catkin/
 catkin_simple/
+.rosinstall
+.catkin_tools/
+devel/
+logs/
+.idea/
+cmake-build-debug/
+src/CMakeLists.txt
+.catkin_workspace
