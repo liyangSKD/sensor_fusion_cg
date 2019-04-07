@@ -3,7 +3,6 @@
 Modified version of **[ethzasl_msf](https://github.com/ethz-asl/ethzasl_msf)** (commit 5d91612  on May 1, 2018), a sensor fusion framework based on an Extended Kalman Filter (EKF) for 6DOF pose estimation including intrinsic and extrinsic sensor calibration.
 
 * MSF: Modular framework for multi sensor fusion based on an Extended Kalman Filter (EKF)
-* [Introductory tutorial for using ethzasl_msf_sensor_fusion](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework)
 * Wiki: https://github.com/ethz-asl/ethzasl_msf/wiki
 * API: http://ethz-asl.github.io/ethzasl_msf
 * Paper
@@ -17,10 +16,6 @@ Modified version of **[ethzasl_msf](https://github.com/ethz-asl/ethzasl_msf)** (
   ```
 
 -----
-
-# Dataset
-
-* [attachment:dataset.bag](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework?action=AttachFile&do=view&target=dataset.bag)
 
 # Docs
 
