@@ -1,7 +1,8 @@
 # sensor_fusion_cg
 
 * [ethzasl_sensor_fusion](http://wiki.ros.org/ethzasl_sensor_fusion): Time delay compensated single and multi sensor fusion framework based on an EKF
-* [Introductory tutorial for using ethzasl_msf_sensor_fusion](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework)
+* [ethzasl_sensor_fusion Tutorials](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials)
+* [robot_localization wiki](http://docs.ros.org/melodic/api/robot_localization/html/)
 
 -----
 
