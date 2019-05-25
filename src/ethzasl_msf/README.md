@@ -17,6 +17,27 @@ Modified version of **[ethzasl_msf](https://github.com/ethz-asl/ethzasl_msf)** (
 
 -----
 
+<div align=center>
+  <img src="http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework?action=AttachFile&do=get&target=structure.png">
+</div>
+
+# Usage
+
+## the MSF Viconpos Sensor Example
+
+1. start msf_updates
+   ```sh
+   roslaunch msf_updates viconpos_sensor.launch
+   ```
+2. play back dataset ([dataset.bag](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework?action=AttachFile&do=view&target=dataset.bag))
+   ```sh
+   rosbag play dataset.bag --pause -s 25
+   ```
+3. plot result data
+   <div align=center>
+     <img src="../../images/stateout.jpg">
+   </div>
+
 # Docs
 
 * `doxygen msf_dox.dox`
