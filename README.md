@@ -38,14 +38,8 @@
 ## Kalman Filter
 
 * [WTF is Sensor Fusion? The good old Kalman filter](https://towardsdatascience.com/wtf-is-sensor-fusion-part-2-the-good-old-kalman-filter-3642f321440)
-* [IMU-sensor-fusion-with-linear-Kalman-filter (mathworks)](https://www.mathworks.com/matlabcentral/fileexchange/70093-imu-sensor-fusion-with-linear-kalman-filter)
 * [ROS Kalman Filter for Sensor Fusion](https://fjp.at/posts/ros/ros-kalman-filter/)
 
 ## Others
 
 * [传感器融合：通向自动驾驶时代的关键一步](https://www.leiphone.com/news/201708/HH3MYTdsDx3mFx0S.html)
-
-# Samples
-
-* [aaronboda24/Loose-GNSS-IMU](https://github.com/aaronboda24/Loose-GNSS-IMU)
-* [karanchawla/GPS_IMU_Kalman_Filter](https://github.com/karanchawla/GPS_IMU_Kalman_Filter)
