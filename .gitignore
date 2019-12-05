@@ -39,3 +39,4 @@ logs/
 cmake-build-debug/
 src/CMakeLists.txt
 .catkin_workspace
+.tags
