@@ -23,17 +23,46 @@ Modified version of **[ethzasl_msf](https://github.com/ethz-asl/ethzasl_msf)** (
 
 # Usage
 
+## the SSF Viconpos Sensor Example
+
+1. start ssf_updates
+   ```sh
+   roslaunch ssf_updates viconpos_sensor.launch
+   ```
+
+2. init filter by click **init_filter** on Config GUI
+   ```sh
+   rosrun rqt_reconfigure rqt_reconfigure
+   ```
+   <div align=center>
+     <img src="../../images/rqt_reconfigure_ssf.png">
+   </div>
+
+3. play back dataset  ([dataset.bag](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework?action=AttachFile&do=view&target=dataset.bag)) in pause mode and from t=25s on
+    ```sh
+    rosbag play dataset.bag --pause -s 25
+    ```  
+    
+4. plot result data
+   ```sh
+   rosrun ssf_core plot_relevant
+   ```     
+
 ## the MSF Viconpos Sensor Example
 
 1. start msf_updates
    ```sh
    roslaunch msf_updates viconpos_sensor.launch
    ```
-2. play back dataset ([dataset.bag](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework?action=AttachFile&do=view&target=dataset.bag))
+
+2. play back dataset  ([dataset.bag](http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/Introductory%20Tutorial%20for%20Multi-Sensor%20Fusion%20Framework?action=AttachFile&do=view&target=dataset.bag)) in pause mode and from t=25s on
    ```sh
    rosbag play dataset.bag --pause -s 25
    ```
 3. plot result data
+   ```sh
+   rqt_plot msf_core/state_out/data[0]:data[1]:data[2]   # Positions
+   ```
    <div align=center>
      <img src="../../images/stateout.jpg">
    </div>

@@ -22,7 +22,7 @@
 
 * build
   ```sh
-  catkin build
+  catkin_make
   ```
 
 # Docs
